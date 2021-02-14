@@ -1,0 +1,124 @@
+new_name;import_name;liss-data-set;topic_english;group;label_english;nice_name_english;type;categories_english;ordered
+birth_year;birth_year;background;background;background;birth year;background;float;;
+age;age;background;background;background;Age ;background;float;;
+hh_members;hh_members;background;background;background;Number of Household Members.;background;float;;
+hh_id;hh_id;background;background;background;Household id;background;float;;
+hh_children;hh_children;background;background;background;number of all children living in the household;background;Int;;
+hhh_partner;hhh_partner;background;background;background;do you live with a married or unmarried partner;background;bool;;
+civil_status;civil_status;background;background;background;Marital status;background;Categorical;Never been married|Married|Divorced|Widow or widower|Separated;FALSE
+hh_position;hh_position;background;background;background;Household Position;background;Categorical;;FALSE
+dom_situation;dom_situation;background;background;background;What is your domestic situation? ;background;Categorical;single|(un)married co-habitation, with child(ren)|(un)married co-habitation, without child(ren)|single, with child(ren)|other;FALSE
+dwelling_type;dwelling_type;background;background;background;;background;Categorical;Self-owned dwelling|Rental dwelling|Cost-free dwelling;FALSE
+location_urban;location_urban;background;background;background;;background;Categorical;Not urban|Slightly urban|Moderately urban|Very urban|Extremely urban;TRUE
+occupation;occupation;background;background;background;;background;Categorical;Paid employment, Is pensioner ([voluntary] early retirement or old age pension scheme), Autonomous professional freelancer or self-employed, Takes care of the housekeeping, Has (partial) work disability, Attends school or is studying, First-time job seeker, Does something else, Performs voluntary work;FALSE
+net_income_hh;net_income_hh;background;background;background;Net income household;background;float;;
+gross_income_hh;gross_income_hh;background;background;background;Gross income household;background;float;;
+education_cbs;education_cbs;background;background;background;education in CBS categories;background;Categorical;primary school|vmbo (intermediate secondary education US: junior high school)|havo/vwo (higher secondary education/preparatory university education US: senio|mbo (intermediate vocational education US: junior college)|hbo (higher vocational education US: college)|wo (university)|other|Not (yet) completed any education, Not yet started any education*;TRUE
+edu;edu;background;background;background;Education;background;Categorical;lower_secondary_and_lower|upper_secondary|tertiary;TRUE
+edu_4;edu_4;background;background;background;Education;background;Categorical;primary|lower_secondary|upper_secondary|tertiary;TRUE
+gender;gender;background;background;background;Gender;background;Categorical;female|male;FALSE
+female;female;background;background;background;Female;background;bool;;
+net_income;net_income;background;background;background;Individual net income;background;float;;
+gross_income;gross_income;background;background;background;Individual gross income;background;float;;
+dum_angina;dum_angina;health;background;health;angina, pain in the chest;;bool;;
+dum_attack;dum_attack;health;background;health;a heart attack including infarction or coronary thrombosis or another heart prob;;bool;;
+dum_pressure;dum_pressure;health;background;health;high blood pressure or hypertension;;bool;;
+dum_cholestrol;dum_cholestrol;health;background;health;high cholesterol content in blood;;bool;;
+dum_stroke;dum_stroke;health;background;health;a stroke or brain infarction or a disease affecting the blood vessels;;bool;;
+dum_diabetes;dum_diabetes;health;background;health;diabetes or a too high blood sugar level;;bool;;
+dum_lung;dum_lung;health;background;health;chronic lung disease such as chronic bronchitis or emphysema;;bool;;
+dum_asthma;dum_asthma;health;background;health;asthma;;bool;;
+dum_arthitis;dum_arthitis;health;background;health;arthritis, including osteoarthritis, or rheumatism, bone decalcification;;bool;;
+dum_cancer;dum_cancer;health;background;health;cancer or malignant tumor, including leukemia or lymphoma;;bool;;
+dum_ulcer;dum_ulcer;health;background;health;a gastric ulcer or duodenal ulcer;;bool;;
+dum_parkinson;dum_parkinson;health;background;health;Parkinson's disease;;bool;;
+dum_cataract;dum_cataract;health;background;health;cataract;;bool;;
+dum_hip;dum_hip;health;background;health;a broken hip or thigh bone;;bool;;
+dum_fracture;dum_fracture;health;background;health;another fracture;;bool;;
+dum_alzheimer;dum_alzheimer;health;background;health;Alzheimer,  organic brain syndrome,  senility ;;bool;;
+dum_benign_tumor;dum_benign_tumor;health;background;health;benign tumor (skin tumor, polyps,  angioma) ;;bool;;
+dum_other;dum_other;health;background;health;other afflictions not yet mentioned;;bool;;
+dum_no_diseases;dum_no_diseases;health;background;health;no diseases / problems;;bool;;
+health_general;health_general;health;background;health;self reported health status ;;category;;
+nervous_back;feel_anxious;health;background;mental_health;;;category;constantly|mostly|often|sometimes|rarely|never;TRUE
+calm_back;feel_calm;health;background;mental_health;;;category;never|rarely|sometimes|often|mostly|constantly;TRUE
+gloomy_back;feel_down;health;background;mental_health;;;category;constantly|mostly|often|sometimes|rarely|never;TRUE
+depressed_back;feel_depressed;health;background;mental_health;;;category;constantly|mostly|often|sometimes|rarely|never;TRUE
+happy_back;feel_happy;health;background;mental_health;;;category;never|rarely|sometimes|often|mostly|constantly;TRUE
+mhi5_back;mhi5_back;;background;mental_health;Mhi 5 score in November 2019;;float;;
+home_ownership_status;home_ownership_status;housing;background;financial_situation;Are you a tenant, subtenant, or (co-)owner of your current dwelling?;;category;tenant|subtenant|(co-)owner|other for instance cost-free accommodation or anti-squatting accommodation;TRUE
+home_has_mortgage;home_has_mortgage;housing;background;financial_situation;do you have a mortgage or loan (or bridging loan);;bool;;TRUE
+home_paid_interest_on_mortgage;home_paid_interest_on_mortgage;housing;background;financial_situation;Did you pay any interest in the current period!;;bool;;
+home_pays_rent;home_pays_rent;housing;background;financial_situation;Do you currently pay rent?;;bool;;TRUE
+home_rent_amount;home_rent_amount;housing;background;financial_situation;How much rent do you pay?;;float;;
+home_nr_of_rooms;home_nr_of_rooms;housing;background;housing;How many rooms does your dwelling contain?;;float;                 ;
+home_problem_small;home_problem_small;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_problem_dark;home_problem_dark;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_problem_cold;home_problem_cold;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_problem_rotten;home_problem_rotten;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_problem_noisy;home_problem_noisy;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_problem_leaking_roof;home_problem_leaking_roof;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_problem_damp;home_problem_damp;housing;background;housing;Does your dwelling have one or more of the following problems?;;bool;;TRUE
+home_price;home_price;housing;background;housing;;;float;;
+home_remaining_mortgage;home_remaining_mortgage;housing;background;housing;;;float;;
+sec_home_price;sec_home_price;housing;background;housing;;;float;;
+sec_home_remaining_mort;sec_home_remaining_mort;housing;background;housing;;;float;;
+paid_work;paid_work;work_schooling;background;work;Does the respondent have paid work?;;bool;;
+sector;sector;work_schooling;background;work;In what sector do you work? (/In what sector did you work in your last job)?;;object;;
+primary_occupation;primary_occupation;work_schooling;background;work;primary occupation;;object;;
+job_social;job_social;work_schooling;background;work;Do (/did) you need to be able to relate well to other people?;;category;often|sometimes|never;TRUE
+profession_firstjob;profession_firstjob;work_schooling;background;work;What profession did you exercise in your first job?;;category;higher_academic|higher_supervisory|intermediate_academic|intermediate_supervisory|other_mental|skilled_manual|semiskilled_manual|unskilled_manual|agricultural_work;TRUE
+work_actual_hours;work_actual_hours;work_schooling;background;work;Hours of work a week;;float;;
+work_contract_hours;work_contract_hours;work_schooling;background;work;Hours of work a week as written in the contract;;float;;
+work_home;work_home;work_schooling;background;work;Do you have work at home days? ;;category;;
+profession;profession;work_schooling;background;work;What is your current profession? (/What profession did you exercise in your last;;category;;
+job_people;job_people;work_schooling;background;work;How many people work (/worked) (approximately) in the branch/location where you;;float;;
+job_supervise;job_supervise;work_schooling;background;work;Do (/Did) you supervise other employees in your profession or position?;;float;;
+job_supervise_number;job_supervise_number;work_schooling;background;work;How many? Please include employees that you supervise (/supervised) through othe;;float;;
+origin;origin;background;background;individual;;;category;;
+division_food;division_food;family;background;Intra-hh;How is the household work divided between you and your partner? - preparing food;;category;;
+division_laundry;division_laundry;family;background;Intra-hh;How is the household work divided between you and your partner? - laundry;;category;;
+division_cleaning;division_cleaning;family;background;Intra-hh;How is the household work divided between you and your partner? - house cleaning;;category;;
+division_chores;division_chores;family;background;Intra-hh;How is the household work divided between you and your partner? - odd jobs in an;;category;;
+division_finances;division_finances;family;background;Intra-hh;How is the household work divided between you and your partner? - financial admi;;category;;
+division_groceries;division_groceries;family;background;Intra-hh;How is the household work divided between you and your partner? - grocery shoppi;;category;;
+raising_playing;raising_playing;family;background;childcare;Distribution of playing childcare;;category;;
+raising_outings;raising_outings;family;background;childcare;Distribution outings childcare;;category;;
+raising_behaviour;raising_behaviour;family;background;childcare;Distribution behaviour childcare;;category;;
+raising_logistic;raising_logistic;family;background;childcare;Distribution logistics childcare;;category;;
+childcare_young_days;childcare_young_days;family;background;childcare;How many part days do you make use of professional childcare?;;float;;
+childcare_young_hours;childcare_young_hours;family;background;childcare;How many hours a week do you make use of professional childcare? ;;float;;
+risky_financial_assets;risky_financial_assets;assets;background;financial_situation;Total value of risky financial assets;;float;;
+total_financial_assets;total_financial_assets;assets;background;financial_situation;Total value of total financial assets;;float;;
+mortgage;mortgage;assets;background;financial_situation;;;float;;
+wealth_excl_housing;wealth_excl_housing;assets;background;financial_situation;;;float;;
+real_estate;real_estate;assets;background;financial_situation;;;float;;
+net_wages;net_wages;income;background;financial_situation;Amount of net wages;;float;;
+gross_wages;gross_wages;income;background;financial_situation;;;float;;
+optimism;optimism;personality;background;personality;;;float;;
+pessimism;pessimism;personality;background;personality;;;float;;
+extraversion;extraversion;personality;background;personality;;;float;;
+agreeableness;agreeableness;personality;background;personality;;;float;;
+conscientiousness;conscientiousness;personality;background;personality;;;float;;
+neuroticism;neuroticism;personality;background;personality;;;float;;
+openness;openness;personality;background;personality;;;float;;
+social_desirability;social_desirability;personality;background;personality;;;float;;
+fin_numeracy;fin_numeracy;ambiguous_beliefs;background;numeracy;Financial Numeracy;;float;;
+prob_numeracy;prob_numeracy;ambiguous_beliefs;background;numeracy;Probabilistic Numeracy;;float;;
+basic_numeracy;basic_numeracy;pref_numeracy;background;numeracy;Basic Numeracy;;float;;
+risk_aversion_index;risk_aversion_index;pref_numeracy;background;preferences;Risk Aversion (qualitative and quantitative component);;float;;
+wealth_hh;;;;;Household wealth;;float;;
+wealth_hh_eqv;;;;;Equivalised household wealth;;float;;
+net_income_hh_eqv;;;;;Equivalised net household income;;float;;
+total_financial_assets_hh;;;background;financial_situation;Total value of total financial assets hh;;float;;
+total_financial_assets_hh_eqv;;;background;financial_situation;Total value of total financial assets hh equivalised;;float;;
+risky_financial_assets_hh;;;background;financial_situation;Risky value of total financial assets hh;;float;;
+risky_financial_assets_hh_eqv;;;background;financial_situation;Risky value of total financial assets hh equivalised;;float;;
+home_price_hh;;;background;housing;Home Price hh;;float;;
+home_price_hh_eqv;;;background;housing;Home Price hh  equivalised;;float;;
+home_remaining_mortgage_hh;;;background;housing;Remaining Mortgage on primary home hh;;float;;
+home_remaining_mortgage_hh_eqv;;;background;housing;Remaining Mortgage on primary home hh equivalised;;float;;
+age_youngest_child;;;background;background;Age of the youngest child in the household;;float;;
+age_group;;;background;individual;Age in 3 broad groups ;;category;;TRUE
+income_group;;;background;individual;Income in 3 broad groups ;;category;;TRUE
+income_hh_group;;;background;individual;Equivalised household income in 3 broad groups ;;category;;TRUE
