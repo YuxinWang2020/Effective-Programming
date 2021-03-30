@@ -1,56 +1,41 @@
 value,counts
-female,
-0.0,542
-1.0,536
-education_cbs,
-wo (university),696
+Gender,
+female,536
+male,542
+Education Level,
 primary school,382
-"Not (yet) completed any education, Not yet started any education*",0
-other,0
-hbo (higher vocational education US: college),0
-mbo (intermediate vocational education US: junior college),0
-havo/vwo (higher secondary education/preparatory university education US: senio,0
 vmbo (intermediate secondary education US: junior high school),0
-dom_situation,
-"(un)married co-habitation, without child(ren)",349
-"(un)married co-habitation, with child(ren)",341
+havo/vwo (higher secondary education/preparatory university education US: senio,0
+mbo (intermediate vocational education US: junior college),0
+hbo (higher vocational education US: college),0
+wo (university),696
+other,0
+"Not (yet) completed any education, Not yet started any education*",0
+Domestic Situation,
 single,294
+"(un)married co-habitation, with child(ren)",341
+"(un)married co-habitation, without child(ren)",349
 "single, with child(ren)",55
 other,39
-age_group,
-<40,469
-40 to 65,334
->65,275
-age_group_by10,
-20 - 29,173
-60 - 69,170
-30 - 39,168
-70 - 79,156
-40 - 49,132
-50 - 59,123
-10 - 19,111
-80 - 89,38
-90 - 99,7
-0 - 9,0
-hh_members,
+Number of Household Members,
 2.0,392
 1.0,294
-4.0,162
-3.0,106
 5.0,89
+3.0,106
+4.0,162
 6.0,23
 7.0,11
 9.0,1
-hh_children,
+Number of Household Children,
 0.0,682
-2.0,168
-1.0,113
 3.0,85
+1.0,113
+2.0,168
 4.0,19
 5.0,11
-location_urban,
+Location Urban,
 Extremely urban,281
 Very urban,240
-Not urban,194
-Slightly urban,187
 Moderately urban,176
+Slightly urban,187
+Not urban,194
